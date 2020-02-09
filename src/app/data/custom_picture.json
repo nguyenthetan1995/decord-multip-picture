@@ -1,0 +1,90 @@
+[[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "100px","bordercolor": "rgb(8, 26, 37)", "top":"20px","left": "20px","srcimage":"","position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "120px","srcimage":"","position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "230px","srcimage":"","position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "#fff", "top":"95px","left": "230px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "#fff", "top":"0px","left": "310px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "rgb(8, 26, 37)", "top":"30px","left": "20px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "40px","bordercolor": "#fff", "top":"120px","left": "40px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "100px","bordercolor": "#fff", "top":"0px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "100px","bordercolor": "rgb(8, 26, 37)", "top":"120px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "220px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":6,"name":"Bộ thứ nhất","cost": 1250000,"width": "55px", "height": "75px","bordercolor": "rgb(8, 26, 37)", "top":"150px","left": "220px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":7,"name":"Bộ thứ nhất","cost": 1250000,"width": "30px", "height": "40px","bordercolor": "#fff", "top":"150px","left": "290px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":8,"name":"Bộ thứ nhất","cost": 1250000,"width": "30px", "height": "40px","bordercolor": "rgb(8, 26, 37)", "top":"40px","left": "335px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":9,"name":"Bộ thứ nhất","cost": 1250000,"width": "55px", "height": "75px","bordercolor": "#fff", "top":"100px","left": "335px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"20px","left": "20px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "rgb(8, 26, 37)", "top":"170px","left": "30px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "135px","srcimage":"","position":"inherit","min_height": "0%" ,"min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "220px","srcimage":"","position":"inherit","min_height": "0%" ,"min_width": "0%","aspectRatio": "0.75"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"105px","left": "135px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":6,"name":"Bộ thứ nhất","cost": 1250000,"width": "95px", "height": "110px","bordercolor": "rgb(8, 26, 37)", "top":"105px","left": "250px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "#fff", "top":"0px","left": "0px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "#fff", "top":"80px","left": "0px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "#fff", "top":"80px","left": "55px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "#fff", "top":"140px","left": "0px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "#fff", "top":"0px","left": "107px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":6,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "70px","bordercolor": "#fff", "top":"140px","left": "107px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":7,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "#fff", "top":"0px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":8,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "#fff", "top":"47px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":9,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "#fff", "top":"94px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":10,"name":"Bộ thứ nhất","cost": 1250000,"width": "102px", "height": "70px","bordercolor": "#fff", "top":"140px","left": "173px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":11,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "#fff", "top":"0px","left": "295px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":12,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "#fff", "top":"110px","left": "295px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "20px","srcimage":"","position":"inherit","min_height": "0%","min_width": "0%" ,"aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "135px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "250px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+    
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "70px", "height": "85px","bordercolor": "rgb(8, 26, 37)", "top":"30px","left": "20px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "40px","bordercolor": "#fff", "top":"120px","left": "40px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "#fff", "top":"0px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "rgb(8, 26, 37)", "top":"120px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "215px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":6,"name":"Bộ thứ nhất","cost": 1250000,"width": "55px", "height": "75px","bordercolor": "rgb(8, 26, 37)", "top":"150px","left": "215px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":7,"name":"Bộ thứ nhất","cost": 1250000,"width": "30px", "height": "40px","bordercolor": "#fff", "top":"150px","left": "290px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":8,"name":"Bộ thứ nhất","cost": 1250000,"width": "30px", "height": "40px","bordercolor": "rgb(8, 26, 37)", "top":"40px","left": "335px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":9,"name":"Bộ thứ nhất","cost": 1250000,"width": "55px", "height": "75px","bordercolor": "#fff", "top":"100px","left": "335px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "0px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "rgb(8, 26, 37)", "top":"80px","left": "0px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "rgb(8, 26, 37)", "top":"80px","left": "55px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "rgb(8, 26, 37)", "top":"140px","left": "0px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "107px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":6,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "70px","bordercolor": "rgb(8, 26, 37)", "top":"140px","left": "107px","srcimage":"","position":"inherit" ,"min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":7,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":8,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "rgb(8, 26, 37)", "top":"47px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":9,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "35px","bordercolor": "rgb(8, 26, 37)", "top":"94px","left": "225px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":10,"name":"Bộ thứ nhất","cost": 1250000,"width": "102px", "height": "70px","bordercolor": "rgb(8, 26, 37)", "top":"140px","left": "173px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":11,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "295px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":12,"name":"Bộ thứ nhất","cost": 1250000,"width": "85px", "height": "100px","bordercolor": "rgb(8, 26, 37)", "top":"110px","left": "295px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "20px","srcimage":"","position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75" },
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "135px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "rgb(8, 26, 37)", "top":"0px","left": "250px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"}
+],
+[
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "#fff", "top":"50px","left": "55px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "#fff", "top":"115px","left": "0px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "#fff", "top":"0px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":4,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "70px","bordercolor": "#fff", "top":"145px","left": "110px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "75px", "height": "50px","bordercolor": "#fff", "top":"0px","left": "235px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "75px", "height": "85px","bordercolor": "#fff", "top":"65px","left": "235px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "75px", "height": "50px","bordercolor": "#fff", "top":"165px","left": "235px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "2"},
+    {"id":5,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "70px","bordercolor": "#fff", "top":"0px","left": "330px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":1,"name":"Bộ thứ nhất","cost": 1250000,"width": "35px", "height": "50px","bordercolor": "#fff", "top":"20px","left": "395px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":3,"name":"Bộ thứ nhất","cost": 1250000,"width": "100px", "height": "130px","bordercolor": "#fff", "top":"85px","left": "330px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "0.75"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "90px", "height": "70px","bordercolor": "#fff", "top":"100px","left": "450px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"},
+    {"id":2,"name":"Bộ thứ nhất","cost": 1250000,"width": "50px", "height": "30px","bordercolor": "#fff", "top":"185px","left": "450px","srcimage":"" ,"position":"inherit","min_height": "0%","min_width": "0%","aspectRatio": "1.8"}
+]]

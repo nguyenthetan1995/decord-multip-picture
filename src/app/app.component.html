@@ -1,0 +1,125 @@
+<div class="contai row">
+  <div class="room col-8" id="room" [ngStyle]="{'background-image': 'url(' + backroundnumber + ')'}">
+    <div class="parent_custom_div" *ngIf="ishide" cdkDragBoundary=".room" cdkDrag [style.width]="550+'px'" [style.height]="180+'px'">
+      <div class="frame position_custom" *ngFor ="let items of custom_picture"   [ngStyle]="{'border-color':items.bordercolor, 'width':items.width ,'height': items.height,'top':items.top,'left':items.left}" >
+        <div class="subframe">
+          <div class="div-image" id="{{items.id}}" >
+            <button class="addimage" (click)="image.click()" ></button>
+            <input type="file" #image id="{{items.id}}" style="display: none;" (change)="fileChangeEvent($event,items.id)" id="{{items.id}}" accept="image/*" aria-label="+" accept="image/*" (change)="processFile($event)">
+            <img id="{{items.id}}"  [ngStyle]="{'position':items.position,'min-height': items.min_height,'min-width': items.min_width}"  [src]="items.srcimage" (click)="zoomimage(items.id)" class="custom-image" (dblclick)="removeimage(items.id)"/>     
+          </div>
+        </div>
+      </div>
+    </div>
+    <div (dblclick)="doubleClick($event)" (click)="openalertinfo($event)" [ngStyle]="{'width':width_div , 'height': height_div}" *ngFor="let item of items" cdkDragBoundary=".room"  (cdkDragEnded)="dragEnd($event)" cdkDrag>
+      <div class="image-spended" (click)="openalertinfo($event)" id = {{item.name}} [ngStyle]="{'background-image': 'url(' + item.url + ')','width':width_div , 'height': height_div}" ></div>
+    </div>
+  </div>
+  <div class="setting col-4">
+    <mat-card class="">
+      <mat-card-header style="display: flex !important; align-items: center !important; text-align: center !important;">
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Thiết kế tranh bộ</mat-card-title>
+        
+        <mat-card-subtitle></mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content style="overflow-y: scroll !important;" >
+        <mat-accordion style="overflow-y: scroll !important;">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Chọn phông nền 
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-grid-list cols="2" rowHeight="80px">
+              <mat-grid-tile class="chooseroom" [colspan]="1" [rowspan]="2" *ngFor="let item of background" (click)="chooseroom($event)" [ngStyle]="{'background-image': 'url(' + item.url + ')'}">                  
+              </mat-grid-tile>
+            </mat-grid-list>
+          </mat-expansion-panel>
+          <mat-expansion-panel [expanded]="isexpanded1">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Chọn tranh bộ 
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-grid-list cols="2"  rowHeight="130px">
+              <mat-grid-tile class="chooseroom" [rowspan]="2" [colspan]="1" *ngFor="let item of basket"  cdkDropList   [cdkDropListData]="basket" cdkDrag (cdkDropListDropped)="dragEnd($event)"  >                  
+                <mat-grid-list cols="1" style="height: 100% !important; width: 100%;" rowHeight="fit">
+                  <mat-grid-tile [colspan]="1" [rowspan]="3" [ngStyle]="{'background-image': 'url(' + item.url + ')'}" class="room-items"   ></mat-grid-tile>
+                  <mat-grid-tile [colspan]="1" [rowspan]="1" >{{item.name}}</mat-grid-tile>
+                  <mat-grid-tile [colspan]="1" [rowspan]="1" class="cost-item" >{{item.cost}} đồng</mat-grid-tile>
+                </mat-grid-list>
+                <!-- <mat-card class="example-card" >
+                  <mat-card-header [ngStyle]="{'background-image': 'url(' + item.url + ')'}" >
+                  </mat-card-header>
+                  <mat-card-content >{{item.name}}</mat-card-content>
+                  <mat-card-footer>{{item.cost}} đồng</mat-card-footer>
+                </mat-card> -->
+              </mat-grid-tile>
+            </mat-grid-list>
+          </mat-expansion-panel>
+          <mat-card-content style="margin-top:20px; padding-left:25px">
+            <h5 class="example-h5">Tự thiết kế tranh bộ</h5>
+            <section class="example-section">
+              <mat-checkbox class="example-margin" [(ngModel)]="ishide">Thiết kế tranh</mat-checkbox>
+            </section>
+          </mat-card-content>
+          <mat-expansion-panel *ngIf="ishide" >
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Chọn bộ tranh
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-grid-list cols="2"  rowHeight="180px">
+              <mat-grid-tile class="chooseroom" [rowspan]="2"  *ngFor="let item of basket"  cdkDropList (click) ="choosecustompicture(item.id)"  [cdkDropListData]="basket" cdkDrag  >                  
+                <mat-grid-list cols="1" style="height: 100% !important; width: 100%;" rowHeight="fit">
+                  <mat-grid-tile [colspan]="1" [rowspan]="3" [ngStyle]="{'background-image': 'url(' + item.url + ')'}" class="room-items"   ></mat-grid-tile>
+                  <mat-grid-tile [colspan]="1" [rowspan]="1" >{{item.name}}</mat-grid-tile>
+                  <mat-grid-tile [colspan]="1" [rowspan]="1" class="cost-item" >{{item.cost}} đồng</mat-grid-tile>
+                </mat-grid-list>
+              </mat-grid-tile>
+            </mat-grid-list>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-card-content>
+      <mat-card-footer id="btnorder" style="background-color: red;" (click)= "export()">
+        <strong>{{costspend}} đồng</strong><span style="float:right;padding-right: 20px;"><strong>Đặt hàng ngay</strong></span>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>
+<ngx-loading [show]="loading" [config]="{primaryColour: PrimaryWhite, secondaryColour: PrimaryRed, tertiaryColour: SecondaryBlue, backdropBorderRadius: '3px'}"
+      [template]="loadingTemplate"></ngx-loading>
+<div id="Modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <image-cropper  [hidden]="!isshowcropper"
+          format ="png" [imageQuality] = 100 
+          [imageChangedEvent]="imageChangedEvent"         
+          (imageLoaded)="imageLoaded($event)"
+          (cropperReady)="cropperReady()"
+          (imageCropped)="imageCropped($event)"
+          (loadImageFailed)="loadImageFailed()"
+          [containWithinAspectRatio] = "false" 
+          [maintainAspectRatio] = "true" 
+            [aspectRatio]= "aspectRatio"
+           ></image-cropper>
+      </div>
+      <div class="modal-footer">
+        <button type="button" (click) ="cropend($event)" class="btn btn-primary">Cắt hình</button >
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myModal" class="modal fade modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body" >
+            <img [src]="srcimagezoom" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>

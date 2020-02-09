@@ -1,0 +1,11 @@
+[
+    {"id":1,"name":"","cost": 1250000,"width": "400px", "height": "180px","url": "assets/image/mockup1.png"},
+    {"id":2,"name":"","cost": 1125000,"width": "351px", "height": "220px","url": "assets/image/mockup2.png"},
+    {"id":3,"name":"","cost": 900000,"width": "315px", "height": "234px","url": "assets/image/mockup3.png"},
+    {"id":4,"name":"","cost": 1305000,"width": "366px", "height": "221px","url": "assets/image/mockup4.png"},
+    {"id":5,"name":"","cost": 1350000,"width": "329px", "height": "136px","url":"assets/image/mockup5.png"},
+    {"id":6,"name":"","cost": 1350000,"width": "351px", "height": "218px","url": "assets/image/mockup6.png"},
+    {"id":7,"name":"","cost": 1250000,"width": "366px", "height": "221px","url": "assets/image/mockup7.png"},
+    {"id":8,"name":"","cost": 1125000,"width": "330px", "height": "134px","url": "assets/image/mockup8.png"},
+    {"id":9,"name":"","cost": 900000,"width": "494px", "height": "227px","url": "assets/image/mockup9.png"}
+  ]

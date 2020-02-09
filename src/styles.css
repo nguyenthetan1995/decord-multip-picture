@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+mat-expansion-panel .mat-expansion-panel-content >.mat-expansion-panel-body{
+height: 300px !important;
+overflow-y: scroll !important;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+.file-custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    height: 2.5rem;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    color: #555;
+    background-color: transparent;
+    border: .075rem solid #ddd;
+    border-radius: .25rem;
+    box-shadow: inset 0 0.2rem 0.4rem rgba(0,0,0,.05);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.file-custom:before {
+    position: absolute;
+   /*  top: -.075rem; */
+    right: -.075rem;
+    bottom: -.075rem;
+    z-index: 6;
+    display: block;
+    content: "+";
+    height: 3.5rem;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    color: #555;
+    background-color: #eee;
+    border: .075rem solid #ddd;
+    border-radius: 0 .25rem .25rem 0;
+    margin: auto;
+}
+.file-custom:after {
+    content: "";
+}
+.uploadfle > figure{
+    display: inline !important;
+}
+.frame > div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+snack-bar-container{
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+  }
+  mat-grid-tile > figure{
+    height: 85% !important;
+    
+  }
+  mat-card-header{
+    border-top:solid 1px #cdcdcd;
+  }
+  mat-card{
+    margin: 0 !important;
+  
+    padding:  0 !important;
+  }
+  .room-items{
+    /* background-size: cover ; */
+    background-repeat: no-repeat;
+    background-color: teal;
+    background-position: center;
+    background-size: 80%;
+
+  }
+  .cost-item{
+    color: red;
+  }
+  .room-items:focus{
+    transform: scale(1.2);
+  } 
+  mat-grid-tile{
+    margin: 5px;
+  }
+  mat-card-header{
+    border-bottom: dotted 1px #cdcdcd;
+    
+  }
+  mat-card-content{
+    border-bottom: dotted 1px #cdcdcd;
+    vertical-align: middle !important;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  mat-card-footer{
+    padding-top:10px ;
+  }
+ image-cropper > div{
+     width: auto !important; 
+     height: 10% !important; 
+  } 
+  image-cropper div > img{
+    width: auto !important; 
+    max-height: 500px !important; 
+ }
+  [_nghost-drm-c1] > div[_ngcontent-drm-c1] {
+    position: relative;
+    width: auto !important;
+}
+image-cropper > div{
+  width:100% !important;
+}
+.overlay{
+  width: 100% !important; 
+   height: 100% !important; 
+}
+.cropper{
+  outline: 3px solid #39f !important;
+}
+.cropper:after{
+  border: none !important;
+}
+.div-image > img{
+  
+  top: 50%;
+  left: 50%;
+  /* min-height: 100%; */
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+}
+.modal-body {
+  max-height:600px !important;
+  max-width:1200px !important;
+  overflow:hide;
+}
+
+.zoom-image-click{
+  position:absolute !important;
+  max-width: 500%;
+  max-height: 500%;
+}
+.custom-image{
+  border: 2px solid #fff !important;
+  /* outline: 4px solid #fff; */
+}
+.modal-lg{
+  max-width: 80% !important;
+  overflow-y: hidden;
+}
+#bodyzoomimage > img{
+  object-fit: contain !important;
+}
+#btnorder{
+  position: absolute;
+  bottom: 1px;
+  right: 0px;;
+}
+mat-card-footer{
+ margin: 0px !important;   
+ width: 100%;
+ color: #fff;
+  cursor: pointer;
+  padding-left: 50px;
+  height: 70px;
+  padding-top: 25px;
+}
+@media (min-width: 576px){
+  .modal-dialog {
+     max-width: 70% !important;
+    margin: 1.75rem auto;
+  }
+}
+.img-responsive{
+  height: 500px !important;
+}
+.modal-body{
+  text-align: center !important;
+}
+#myModal{
+  width: 100% !important;
+}
+#bodyzoomimage{
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+.modal-header{
+  text-align: center !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* #myModal{
+  height: 50% !important;
+  width: 50% !important;
+  margin: auto !important;
+  overflow-y: scroll !important;
+} */
